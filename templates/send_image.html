@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <form action="" method="post" enctype="multipart/form-data">
+            {%csrf_token%}
+            <label for="photo">Photo: </label>
+            <input type="file" id="photo" name="photo">
+            <input type="submit" value="Send Photo">  
+        </form>
+    </body>
+</html>
